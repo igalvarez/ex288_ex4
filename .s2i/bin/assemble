@@ -10,11 +10,6 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
-echo "copy htmlto container"
-cp -Rf /tmp/src/*   ./
-
-echo "creating info.html"
-echo "Pagina info.html creada el $(date +%F)" >> ./info.html
 
 
 ######## CUSTOMIZATION ENDS HERE ############
