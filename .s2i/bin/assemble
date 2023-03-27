@@ -11,9 +11,10 @@ config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 
 cp -Rf /tmp/src/*.html ./
-echo "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd------------------"
-DATE=$(date +%F)
-echo "Pagina hecha en $DATE" >> ./info.html
+
+echo xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+echo "pagina creada el $(date +%F)" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
