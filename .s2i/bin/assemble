@@ -10,6 +10,10 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
+echo AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+cp -Rf /tmp/src/*.html ./
+DATE=`date +%F`
+echo "Page built on $DATE" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
