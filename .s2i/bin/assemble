@@ -10,7 +10,12 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
+echo oooooooooooooooooooooooooooooooooooooooooooooooooooo
+cp -Rf /tmp/src/*.html ./
+DATE=`date +%F`
+echo "Page built on $DATE" > ./info.html
 
+echo oooooooooooooooooooooooooooooooooooooooooooooo
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
