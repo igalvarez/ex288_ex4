@@ -9,13 +9,12 @@ echo "---> Enabling s2i support in httpd24 image"
 config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
-
-echo oooooooooooooooooooooooooooooooooooooooooooooooooooo
+echo oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 cp -Rf /tmp/src/*.html ./
-DATE=`date +%F`
-echo "Page built on $DATE" > ./info.html
+DATE=`date +%F %d %m %Y`
+echo "Page built on $DATE" > ./info,html
+echo ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
-echo oooooooooooooooooooooooooooooooooooooooooooooo
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
