@@ -11,7 +11,7 @@ config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 echo oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 cp -Rf /tmp/src/*.html ./
-DATE=`date +%d %m %Y`
+DATE=`date '+%d %m %Y'`
 echo "Page built on $DATE" > ./info.html
 echo ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
